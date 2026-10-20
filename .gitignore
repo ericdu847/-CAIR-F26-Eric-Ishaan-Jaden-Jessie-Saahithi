@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Kaggle credentials
+kaggle.json
+
+# Data: keep the folder, ignore contents (large files)
+data/*
+!data/.gitkeep
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
